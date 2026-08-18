@@ -1,52 +1,62 @@
-[README.md](https://github.com/user-attachments/files/28766891/README.md)
-# GGU DATA 110 — Python Basics
+# GGU DATA 110 — Introduction to Python, Machine Learning & NLP
 
-Course code files for **DATA 110** at **Golden Gate University**.  
-Covers foundational Python programming concepts from Day 1 of the course.
-
----
-
-## Files
-
-| File | Topic |
-|------|-------|
-| `code1.py` | Hello World & Basic Arithmetic |
-| `code2.py` | Variables |
-| `code3.py` | Data Types & Type Conversion |
-| `code4.py` | Lists |
-| `code5.py` | Tuples |
-| `code6.py` | Sets |
-| `code7.py` | Dictionaries |
-| `code8.py` | String Operations |
-| `code9.py` | If / If-Else Statements |
-| `code10.py` | If-Elif-Else (Grade Calculator) |
-| `code11.py` | Nested If Statements |
-| `code12.py` | For Loops |
-| `code13.py` | While Loop |
-| `code14.py` | Break, Continue & Pass |
-| `code15.py` | Nested Loops, Zip & List Comprehension |
-| `code16.py` | NumPy Basics |
-| `code17.py` | Pandas — Series & DataFrame |
-| `code18.py` | Pandas — Data Exploration (requires `German-Credit_1.csv`) |
+Comprehensive course repository for **DATA 110** at **Golden Gate University (GGU)**.  
+Includes core Python scripts, data science & machine learning Jupyter notebooks, datasets, and End-Term Part B assignment deliverables.
 
 ---
 
-## Requirements
 
-Install the required libraries before running NumPy or Pandas files:
+
+### 📓 Machine Learning & Data Science Notebooks
+
+* **`Assignment_Pandas_NumPy.ipynb`**: Comprehensive exercises on array manipulation, matrix operations, indexing, and data preprocessing using NumPy and Pandas.
+* **`Boston_Housing_Price_Prediction.ipynb`**: End-to-end regression model predicting housing prices using the Boston Housing dataset.
+* **`Churn_Modelling_Classification.ipynb`**: Customer churn prediction using ANN and binary classification models on bank customer data.
+
+---
+
+### 📊 Datasets Included
+
+* `German-Credit_1.csv` & `German-Credit_2.csv`: Credit scoring and risk evaluation dataset.
+* `Churn_Modelling.csv`: Bank customer demographics, account details, and exit status.
+* `Boston.csv`: Housing features and median values for neighborhood regression modeling.
+
+---
+
+## 🎯 End Term Part B Video Assignment
+
+* **Student Name**: Sandeep Singh
+* **Assigned Topic**: Topic #8 — *Loss Functions in ANN (MSE, Cross-Entropy)*
+* **Key Artifacts**:
+  * `Loss_Functions_in_ANN_Sandeep_Singh.pptx`: 13-slide PowerPoint presentation formatted to GGU guidelines.
+  * `Video_Presentation_Script_Sandeep_Singh.docx`: 10-minute presentation transcript with slide-by-slide visual cues.
+
+---
+
+## ⚡ Environment & Setup
+
+### Prerequisites
+Install the required packages before running Python scripts or Jupyter Notebooks:
 
 ```bash
-pip install numpy pandas
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter pypdf python-pptx python-docx
 ```
 
----
-
-## How to Run
-
+### Running Core Python Scripts
 ```bash
 python code1.py
 ```
+*(Note: `code9.py`, `code11.py`, and `code12.py` contain interactive user input prompts).*
 
-Replace `code1.py` with any file you want to run.
+### Launching Jupyter Notebooks
+```bash
+jupyter notebook
+```
 
-> **Note:** `code9.py`, `code11.py`, `code12.py` use `input()` and will prompt you to enter a value when run.
+---
+
+## 📜 License & Citation
+
+* **Institution**: Golden Gate University (GGU)
+* **Course**: DATA110 — Introduction to Python using Machine Learning & NLP
+
