@@ -22,15 +22,6 @@ Includes core Python scripts, data science & machine learning Jupyter notebooks,
 * `Boston.csv`: Housing features and median values for neighborhood regression modeling.
 
 ---
-
-## 🎯 End Term Part B Video Assignment
-
-* **Student Name**: Sandeep Singh
-* **Assigned Topic**: Topic #8 — *Loss Functions in ANN (MSE, Cross-Entropy)*
-* **Key Artifacts**:
-  * `Loss_Functions_in_ANN_Sandeep_Singh.pptx`: 13-slide PowerPoint presentation formatted to GGU guidelines.
-  * `Video_Presentation_Script_Sandeep_Singh.docx`: 10-minute presentation transcript with slide-by-slide visual cues.
-
 ---
 
 ## ⚡ Environment & Setup
